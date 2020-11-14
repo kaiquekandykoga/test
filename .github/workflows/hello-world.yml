@@ -14,7 +14,7 @@ on:
 jobs:
   say_hello:
     # Uses a ubuntu-lates runner to complete the requested steps
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - run: |
         echo "Hello ${{ github.event.inputs.name }}!"
