@@ -13,4 +13,4 @@ jobs:
 
     steps:
       - name: testing 0
-        run: puts "Hello World"
+        run: ruby -e 'puts "hi"'
