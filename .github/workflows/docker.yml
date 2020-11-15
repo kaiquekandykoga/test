@@ -1,0 +1,15 @@
+name: c
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  i:
+    runs-on: ubuntu-latest
+    container: ruby:2.7.2-alpine
+
+    - name: testing 0
+      run: puts "Hello World!"
