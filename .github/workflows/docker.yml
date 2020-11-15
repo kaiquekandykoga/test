@@ -11,5 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     container: ruby:2.7.2-alpine
 
-    - name: testing 0
-      run: puts "Hello World"
+    steps:
+      - name: testing 0
+        run: puts "Hello World"
