@@ -12,5 +12,6 @@ jobs:
     container: ruby:2.7.2-alpine
 
     steps:
+      - uses: actions/checkout@v2
       - name: testing 0
-        run: ruby -e 'puts "hi"'
+        run: ruby a.rb
